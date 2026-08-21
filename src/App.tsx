@@ -52,9 +52,10 @@ function App() {
 
   return (
     <div className="site-shell">
+      <a className="skip-link" href="#main-content">Skip to content</a>
       <header className="site-header">
         <div className="container header-inner">
-          <a className="brand" href="#top" aria-label={`${content.identity.name} home`}>
+          <a className="brand" href="#main-content" aria-label={`${content.identity.name} home`}>
             <span className="brand-mark">MK</span>
             <span className="brand-name">{content.identity.name}</span>
           </a>
@@ -81,7 +82,7 @@ function App() {
         </div>
       </header>
 
-      <main id="top">
+      <main id="main-content">
         <section className="hero container" aria-labelledby="hero-heading">
           <div className="hero-copy">
             <p className="eyebrow"><span className="eyebrow-line" />{content.hero.eyebrow}</p>
@@ -160,7 +161,7 @@ function App() {
                 <article className="timeline-entry" key={entry.institution}>
                   <div className="timeline-marker"><span /></div>
                   <div className="timeline-content">
-                    <div className="timeline-meta"><span>{entry.period}</span>{entry.startYear !== 'PLACEHOLDER_START_YEAR' && <span>{entry.startYear}</span>}<span>{entry.location}</span></div>
+                    <div className="timeline-meta"><span>{entry.period}</span><span>{entry.location}</span></div>
                     <h3>{entry.institution}</h3>
                     <p className="degree">{entry.degree}</p>
                   </div>
@@ -194,7 +195,7 @@ function App() {
       <footer className="site-footer">
         <div className="container footer-inner">
           <span>{content.footer}</span>
-          <a href="#top">Back to top <ArrowUp size={14} /></a>
+          <a href="#main-content">Back to top <ArrowUp size={14} /></a>
         </div>
       </footer>
     </div>
@@ -221,7 +222,7 @@ function ProjectCard({ project }: { project: (typeof content.projects.items)[num
     <article className={`project-card ${project.featured ? 'featured' : ''}`}>
       <div className="project-visual" aria-label={`${project.title} project image placeholder`} role="img">
         <div className="visual-grid" />
-        <div className="visual-label">{project.kind === 'game' ? 'PLAYABLE' : 'PROJECT'}<span> / 0{project.title.length % 7 + 1}</span></div>
+        <div className="visual-label">{project.kind === 'game' ? 'PLAYABLE' : 'PROJECT'}</div>
         {project.kind === 'game' ? <Terminal size={28} strokeWidth={1.2} /> : <Code2 size={28} strokeWidth={1.2} />}
       </div>
       <div className="project-card-body">

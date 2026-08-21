@@ -33,7 +33,6 @@ Enable **GitHub Pages → Build and deployment → GitHub Actions** in the repos
 All identity, copy, social links, skills, education, and projects live in **`src/data/content.ts`**. Update the typed `content` object there to change the portfolio without editing components.
 
 - Replace `PLACEHOLDER_RESUME_URL` when a resume link is ready; the resume button is hidden until then.
-- Replace `PLACEHOLDER_START_YEAR` when the education start year is known; the year is hidden until then.
 - Keep project links and descriptions in the data module so the UI remains reusable.
 - A project can use `kind: 'game'` to appear in the distinct playable games group, and `demo` for a play/live link.
 
