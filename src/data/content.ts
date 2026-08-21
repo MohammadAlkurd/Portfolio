@@ -13,7 +13,7 @@ export interface Project {
   title: string
   description: string
   tech: string[]
-  repo: string
+  repo?: string
   demo?: string
   demoLabel?: string
   demoIsHttp?: boolean
@@ -27,7 +27,6 @@ export interface EducationEntry {
   degree: string
   location: string
   period: string
-  startYear: string
 }
 
 export interface PortfolioContent {
@@ -51,8 +50,6 @@ export interface PortfolioContent {
 }
 
 export const PLACEHOLDER_RESUME_URL = 'PLACEHOLDER_RESUME_URL'
-export const PLACEHOLDER_START_YEAR = 'PLACEHOLDER_START_YEAR'
-
 export const content: PortfolioContent = {
   identity: {
     name: 'Mohammed Kord',
@@ -153,7 +150,6 @@ export const content: PortfolioContent = {
         title: 'A Pentagon Game',
         description: 'A small Godot game published on itch.io.',
         tech: ['Godot', 'GDScript'],
-        repo: '',
         demo: 'https://mohammadalkurddev.itch.io/a-pentagon-game',
         demoLabel: 'Play on itch.io',
         kind: 'game',
@@ -162,7 +158,6 @@ export const content: PortfolioContent = {
         title: 'Cookie Eater',
         description: 'A small Godot game published on itch.io.',
         tech: ['Godot', 'GDScript'],
-        repo: '',
         demo: 'https://mohammadalkurddev.itch.io/cookie-eater',
         demoLabel: 'Play on itch.io',
         kind: 'game',
@@ -177,8 +172,7 @@ export const content: PortfolioContent = {
         institution: 'Palestine Polytechnic University',
         degree: 'B.Sc. Computer Engineering',
         location: 'Hebron, Palestine',
-        period: 'Present',
-        startYear: PLACEHOLDER_START_YEAR,
+        period: '2025 — Present',
       },
     ],
   },
