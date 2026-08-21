@@ -26,7 +26,7 @@ The repository includes a GitHub Actions workflow at `.github/workflows/deploy.y
 
 `https://mohammadalkurd.github.io/Portfolio/`
 
-Enable **GitHub Pages → Build and deployment → GitHub Actions** in the repository settings the first time.
+The workflow enables GitHub Pages automatically on its first successful run. If automatic enablement is unavailable for the repository, use **Settings → Pages → Build and deployment → GitHub Actions** as a fallback.
 
 ## How to edit your content
 
