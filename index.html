@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10151c" />
+    <meta name="description" content="Mohammed Kord — Computer Engineering student and aspiring software engineer building thoughtful digital experiences." />
+    <meta property="og:title" content="Mohammed Kord | Computer Engineering Student" />
+    <meta property="og:description" content="A portfolio of selected projects, technical skills, and learning notes by Mohammed Kord." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mohammadalkurd.github.io/Portfolio/" />
+    <link rel="icon" type="image/svg+xml" href="/Portfolio/favicon.svg" />
+    <title>Mohammed Kord | Computer Engineering Student</title>
+  </head>
+  <body>
+    <script>
+      (() => {
+        const stored = localStorage.getItem('theme');
+        const theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
