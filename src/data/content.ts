@@ -74,9 +74,9 @@ export const content: PortfolioContent = {
     resumeCta: 'View resume',
   },
   about: {
-    heading: 'A practical builder with a curious streak.',
-    body: "I'm a Computer Engineering student at Palestine Polytechnic University who likes building things that actually run on a desk, not just in a notebook: Linux desktop tools, game-engine experiments, and small backend services. I work mostly in C# and Python, dip into C++ when a project needs it, and lean on AI tooling for research, prototyping, and getting unfamiliar stacks working fast.",
-    addendum: 'Outside coursework I make small games in Godot in my free time and publish them on itch.io.',
+    heading: 'Software engineering grounded in AI and algorithms.',
+    body: "I'm a Computer Engineering student at Palestine Polytechnic University with a focus on artificial intelligence, competitive programming, and software engineering. My work spans machine learning applications such as gesture recognition with PyTorch and reinforcement learning in the Godot engine, REST APIs built with ASP.NET Core and Entity Framework, and Linux desktop tools in Python and PyQt6. I work primarily in C# and Python, use C++ where performance matters, and apply AI tooling deliberately to speed up research, prototyping, and delivery.",
+    addendum: 'Competitive programming keeps my algorithmic and problem-solving skills sharp, and I bring the same rigor to writing clean, well-structured, maintainable code. Outside coursework I build and publish games in Godot on itch.io.',
   },
   skills: {
     heading: 'Tools I use to make ideas real.',
@@ -178,7 +178,7 @@ export const content: PortfolioContent = {
   },
   contact: {
     heading: 'Let’s build something useful.',
-    body: 'Open to internships, freelance work, and collaboration. Reach me by email or on GitHub.',
+    body: 'Open to part-time roles, internships, freelance work, and collaboration. Reach me by email or on GitHub.',
     emailLabel: 'Send an email',
     githubLabel: 'GitHub profile',
     itchLabel: 'itch.io profile',
