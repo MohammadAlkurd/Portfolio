@@ -55,7 +55,7 @@ export const content: PortfolioContent = {
     name: 'Mohammed Kord',
     title: 'Computer Engineering Student',
     location: 'Hebron, Palestine',
-    tagline: 'Computer Engineering student at Palestine Polytechnic University, building desktop tools, game-engine experiments, and REST APIs.',
+    tagline: 'Computer Engineering student at Palestine Polytechnic University, focused on artificial intelligence, competitive programming, and software engineering.',
     email: 'alkurd.2000.md@gmail.com',
     resume: PLACEHOLDER_RESUME_URL,
   },
@@ -68,15 +68,15 @@ export const content: PortfolioContent = {
   ],
   hero: {
     eyebrow: 'Hello, I’m Mohammed',
-    intro: 'I like building things that connect curious ideas to useful software.',
+    intro: 'I build well-engineered software, from machine learning models to backend services and desktop applications.',
     primaryCta: 'View projects',
     secondaryCta: 'Get in touch',
     resumeCta: 'View resume',
   },
   about: {
-    heading: 'Software engineering grounded in AI and algorithms.',
-    body: "I'm a Computer Engineering student at Palestine Polytechnic University with a focus on artificial intelligence, competitive programming, and software engineering. My work spans machine learning applications such as gesture recognition with PyTorch and reinforcement learning in the Godot engine, REST APIs built with ASP.NET Core and Entity Framework, and Linux desktop tools in Python and PyQt6. I work primarily in C# and Python, use C++ where performance matters, and apply AI tooling deliberately to speed up research, prototyping, and delivery.",
-    addendum: 'Competitive programming keeps my algorithmic and problem-solving skills sharp, and I bring the same rigor to writing clean, well-structured, maintainable code. Outside coursework I build and publish games in Godot on itch.io.',
+    heading: 'Strong fundamentals, applied to real software.',
+    body: "I'm a Computer Engineering student at Palestine Polytechnic University with a strong interest in artificial intelligence, competitive programming, and software engineering. Competitive programming has given me a solid command of algorithms and data structures and the habit of reasoning carefully about correctness and efficiency. I apply that same discipline to building software: clean architecture, readable code, and solutions that hold up in real use, whether the problem calls for a machine learning model, a backend service, or a desktop application.",
+    addendum: "I work primarily in C# and Python, with C++ where performance matters, and I'm comfortable picking up new tools when a project calls for them. I'm currently seeking a part-time software engineering role where I can contribute to a team and keep growing as an engineer.",
   },
   skills: {
     heading: 'Tools I use to make ideas real.',
