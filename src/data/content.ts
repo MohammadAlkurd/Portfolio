@@ -147,6 +147,15 @@ export const content: PortfolioContent = {
         kind: 'code',
       },
       {
+        title: 'XO',
+        description: 'A playable tic-tac-toe game built right into this site. Play a friend on the same screen or face an unbeatable minimax computer opponent, with score tracking across rounds.',
+        tech: ['TypeScript', 'React', 'Minimax'],
+        demo: './xo.html',
+        demoLabel: 'Play now',
+        kind: 'game',
+        genre: 'Classic',
+      },
+      {
         title: 'A Pentagon Game',
         description: 'A small Godot game published on itch.io.',
         tech: ['Godot', 'GDScript'],
