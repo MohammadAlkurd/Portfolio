@@ -164,6 +164,7 @@ function App() {
                     <div className="timeline-meta"><span>{entry.period}</span><span>{entry.location}</span></div>
                     <h3>{entry.institution}</h3>
                     <p className="degree">{entry.degree}</p>
+                    {entry.note && <p className="degree">{entry.note}</p>}
                   </div>
                 </article>
               ))}
