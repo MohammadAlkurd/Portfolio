@@ -27,6 +27,7 @@ export interface EducationEntry {
   degree: string
   location: string
   period: string
+  note?: string
 }
 
 export interface PortfolioContent {
@@ -97,6 +98,14 @@ export const content: PortfolioContent = {
     gamesLabel: 'Playable games',
     items: [
       {
+        title: 'RAG Service for STEM Textbooks',
+        description: 'A self-hosted retrieval-augmented generation backend for STEM textbook PDFs: upload validation, OCR to Markdown with LaTeX formulas (MinerU), figure extraction, content-hash caching, semantic chunking, embeddings via Ollama, and vector indexing in Qdrant — all behind an ASP.NET Core API with background job queueing and live status.',
+        tech: ['C#', 'ASP.NET Core', 'Qdrant', 'Ollama', 'MinerU OCR'],
+        repo: 'https://github.com/MohammadAlkurd/RAG',
+        featured: true,
+        kind: 'code',
+      },
+      {
         title: 'Hand Gestures To Action',
         description: 'A PyQt6 desktop app for KDE Linux that turns custom webcam hand gestures into real actions. Record a gesture, it extracts hand landmarks and trains a small MLP classifier, then bind the gesture to a keypress or script and the inference loop fires it live. Includes a test mode that shows predictions without triggering actions.',
         tech: ['Python', 'PyQt6', 'PyTorch', 'MediaPipe hand landmarks', 'pynput'],
@@ -131,8 +140,8 @@ export const content: PortfolioContent = {
       },
       {
         title: 'Quoridor',
-        description: 'A digital implementation of the Quoridor board game, with a C# backend for game state and rules alongside a Godot front end.',
-        tech: ['C#', 'Godot'],
+        description: 'A digital implementation of the Quoridor board game in Godot 4, written in C# with local two-player play.',
+        tech: ['Godot', 'C#', 'GDScript'],
         repo: 'https://github.com/MohammadAlkurd/Quoridor',
         demo: 'https://mohammadalkurddev.itch.io/quoridor-demo',
         demoLabel: 'Play demo',
@@ -173,6 +182,7 @@ export const content: PortfolioContent = {
         degree: 'B.Sc. Computer Engineering',
         location: 'Hebron, Palestine',
         period: '2025 — Present',
+        note: '11th place at PCPC (Palestinian Collegiate Programming Contest) — the national ICPC qualifier whose top teams advance to ACPC.',
       },
     ],
   },
