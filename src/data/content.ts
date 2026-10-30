@@ -58,7 +58,7 @@ export const content: PortfolioContent = {
     location: 'Hebron, Palestine',
     tagline: 'Computer Engineering student at Palestine Polytechnic University, focused on artificial intelligence, competitive programming, and software engineering.',
     email: 'alkurd.2000.md@gmail.com',
-    resume: PLACEHOLDER_RESUME_URL,
+    resume: 'https://mohammadalkurd.github.io/Portfolio/mohammed-kord-cv.pdf',
   },
   navigation: [
     { label: 'About', href: '#about' },
