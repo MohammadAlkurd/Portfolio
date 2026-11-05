@@ -83,7 +83,7 @@ export const content: PortfolioContent = {
     heading: 'Tools I use to make ideas real.',
     intro: 'A growing toolkit shaped by coursework, experiments, and projects that needed to ship.',
     groups: [
-      { label: 'Languages', skills: ['C#', 'Python', 'C++', 'GDScript', 'SQL'] },
+      { label: 'Languages', skills: ['C#', 'Python', 'C++', 'SQL'] },
       { label: 'Backend & Data', skills: ['ASP.NET Core Web API', 'REST API design', 'Entity Framework relationships (one-to-many, many-to-many)', 'relational schema design'] },
       { label: 'Desktop & UI', skills: ['PyQt6', 'KDE Plasma / Wayland integration', 'D-Bus', 'system tray apps'] },
       { label: 'AI & ML', skills: ['PyTorch (MLP classifiers)', 'hand-landmark detection', 'reinforcement learning', 'ONNX inference', 'AI-assisted development and research'] },
@@ -116,7 +116,7 @@ export const content: PortfolioContent = {
       {
         title: 'RL Godot',
         description: 'A reinforcement-learning experiment in the Godot engine: a ragdoll agent trained with Godot RL Agents and run back in-engine through an exported ONNX policy, with custom shaders for the scene.',
-        tech: ['Godot', 'GDScript', 'C#', 'Godot RL Agents', 'ONNX'],
+        tech: ['Godot', 'C#', 'Godot RL Agents', 'ONNX'],
         repo: 'https://github.com/MohammadAlkurd/RL_godot',
         featured: true,
         kind: 'code',
@@ -141,7 +141,7 @@ export const content: PortfolioContent = {
       {
         title: 'Quoridor',
         description: 'A digital implementation of the Quoridor board game in Godot 4, written in C# with local two-player play.',
-        tech: ['Godot', 'C#', 'GDScript'],
+        tech: ['Godot', 'C#'],
         repo: 'https://github.com/MohammadAlkurd/Quoridor',
         demo: 'https://mohammadalkurddev.itch.io/quoridor-demo',
         demoLabel: 'Play demo',
@@ -157,16 +157,16 @@ export const content: PortfolioContent = {
       },
       {
         title: 'A Pentagon Game',
-        description: 'A small Godot game published on itch.io.',
-        tech: ['Godot', 'GDScript'],
+        description: 'A small Unity game published on itch.io.',
+        tech: ['Unity', 'C#'],
         demo: 'https://mohammadalkurddev.itch.io/a-pentagon-game',
         demoLabel: 'Play on itch.io',
         kind: 'game',
       },
       {
         title: 'Cookie Eater',
-        description: 'A small Godot game published on itch.io.',
-        tech: ['Godot', 'GDScript'],
+        description: 'A small Unity game published on itch.io.',
+        tech: ['Unity', 'C#'],
         demo: 'https://mohammadalkurddev.itch.io/cookie-eater',
         demoLabel: 'Play on itch.io',
         kind: 'game',
