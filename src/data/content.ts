@@ -122,6 +122,12 @@ export const content: PortfolioContent = {
         kind: 'code',
       },
       {
+        title: 'Cambridge Battlecode 2026',
+        description: 'Took part in Cambridge Battlecode 2026, an international programming competition, by writing a bot in C++ that plays against other teams’ bots. I made international friends and gained valuable knowledge along the way.',
+        tech: ['C++'],
+        kind: 'code',
+      },
+      {
         title: 'Employment API',
         description: 'A RESTful API over Employees and Departments with a one-to-many relationship, deployed with a live Swagger UI to try the endpoints.',
         tech: ['C#', 'ASP.NET Core', 'Entity Framework', 'SQL', 'Swagger'],
